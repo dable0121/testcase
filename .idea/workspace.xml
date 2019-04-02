@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebadcd14-6bfe-44e6-ae94-98bea4061513" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/clone/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/clone/Source.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/clone/Target.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -385,10 +381,18 @@
       <workItem from="1554107118900" duration="680000" />
       <workItem from="1554175932385" duration="3771000" />
     </task>
+    <task id="LOCAL-00001" summary="添加不同类型的cglib copy">
+      <created>1554196030665</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554196030665</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8086000" />
+    <option name="totallyTimeSpent" value="8126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -444,7 +448,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="添加不同类型的cglib copy" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加不同类型的cglib copy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
