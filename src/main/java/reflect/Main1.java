@@ -2,6 +2,7 @@ package reflect;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
+import java.util.ArrayList;
 
 public class Main1 {
 
@@ -23,6 +24,11 @@ public class Main1 {
       System.out.println("Declaredmethod|"+m.getName()+"="+Modifier.isPrivate(m.getModifiers()));
       System.out.println("Declaredmethod|"+m.getName()+"="+Modifier.toString(m.getModifiers()));
     }
+
+    Class c1 = new ArrayList<String>().getClass();
+    Class c2 = new ArrayList<Integer>().getClass();
+    System.out.println(c1==c2);
+
   }
 
 }
