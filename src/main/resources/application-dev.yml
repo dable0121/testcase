@@ -4,9 +4,9 @@ spring:
         url: jdbc:mysql://mysql.me.glodon.com:43306/ngtrade_renewal?useSSL=true&serverTimezone=Asia/Shanghai&characterEncoding=utf-8
         username: root
     redis:
-      database: 0
-      host: redis.me.glodon.com
-      password:
-      port: 46379
+        database: 0
+        host: redis.me.glodon.com
+        password:
+        port: 46379
     jpa:
         show-sql: true
