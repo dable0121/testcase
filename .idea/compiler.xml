@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="interview" />
         <module name="javatest" />
         <module name="testjava" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="interview" target="1.8" />
       <module name="javatest" target="1.8" />
       <module name="testjava" target="1.8" />
     </bytecodeTargetLevel>
