@@ -1,7 +1,7 @@
 spring:
     datasource:
         tomcat:
-            max-active: 150
+            max-active: 200
             max-wait: 10000
             test-on-borrow: true
         driver-class-name: com.mysql.cj.jdbc.Driver
@@ -12,7 +12,7 @@ spring:
                 max-idle: 8
                 max-wait: 10000ms
                 min-idle: 2
-            timeout: 10000
+            timeout: 10000ms
 
 
 

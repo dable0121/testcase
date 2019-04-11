@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class IO {
 
-  private static final String filePath = "E:\\test\\a.java";
+  private static final String filePath = "a.txt";
 
   private void writeFile() throws IOException {
     DataOutputStream dos = new DataOutputStream(new FileOutputStream(new File(filePath)));

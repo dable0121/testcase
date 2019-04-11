@@ -9,7 +9,7 @@ import java.sql.Statement;
 public class LocalDBDAO {
 
   private static String driver = "com.mysql.cj.jdbc.Driver";
-  private static String url = "jdbc:mysql://10.129.60.113:43306/ngtrade_renewal?useSSL=true&serverTimezone=Asia/Shanghai&characterEncoding=utf-8";
+  private static String url = "jdbc:mysql://mysql.me.glodon.com:43306/ngtrade_renewal?useSSL=true&serverTimezone=Asia/Shanghai&characterEncoding=utf-8";
   private static String user = "root";
   private static String password = "123456";
 

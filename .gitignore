@@ -1,9 +1,1 @@
-*.iml
-*.MF
-.settings
-.project
-.classpath
-.springBeans
-.idea
-*.log
-/target/
+/target/*
