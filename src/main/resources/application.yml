@@ -1,0 +1,18 @@
+spring:
+    datasource:
+        tomcat:
+            max-active: 150
+            max-wait: 10000
+            test-on-borrow: true
+        driver-class-name: com.mysql.cj.jdbc.Driver
+    redis:
+        lettuce:
+            pool:
+                max-active: 8
+                max-idle: 8
+                max-wait: 10000ms
+                min-idle: 2
+            timeout: 10000
+
+
+

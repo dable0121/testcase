@@ -1,8 +1,8 @@
 package cglib;
 
 import java.lang.reflect.Method;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.junit.Assert;
+import org.junit.Test;
 import org.springframework.cglib.proxy.CallbackHelper;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.FixedValue;
@@ -90,8 +90,8 @@ public class Cglib {
     System.out.println(proxy.test(null));
     System.out.println(proxy.toString());
     System.out.println(proxy.hashCode());
-    Assertions.assertEquals("Hello cglib", proxy.test(null));
-    Assertions.assertEquals("Hello cglib", proxy.toString());
+    Assert.assertEquals("Hello cglib", proxy.test(null));
+    Assert.assertEquals("Hello cglib", proxy.toString());
     System.out.println(proxy.hashCode());
   }
 
