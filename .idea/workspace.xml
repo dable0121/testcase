@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebadcd14-6bfe-44e6-ae94-98bea4061513" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_27_1_jre.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_5_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/bloomfilter/BloomTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/javatest.iml" afterPath="$PROJECT_DIR$/javatest.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../JCSprout/target/" />
@@ -880,7 +870,7 @@
       <workItem from="1554883303051" duration="145000" />
       <workItem from="1554883462930" duration="115000" />
       <workItem from="1554886416327" duration="19854000" />
-      <workItem from="1554970570326" duration="4124000" />
+      <workItem from="1554970570326" duration="4149000" />
     </task>
     <task id="LOCAL-00001" summary="添加不同类型的cglib copy">
       <created>1554196030665</created>
@@ -1029,7 +1019,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554971164072</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="bloom filter">
+      <created>1554976312765</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1554976312765</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1065,7 +1062,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48684000" />
+    <option name="totallyTimeSpent" value="48709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1153,7 +1150,8 @@
     <MESSAGE value="maven rebuild" />
     <MESSAGE value="customize annotation!" />
     <MESSAGE value="proj modify" />
-    <option name="LAST_COMMIT_MESSAGE" value="proj modify" />
+    <MESSAGE value="bloom filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="bloom filter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1410,6 +1408,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
