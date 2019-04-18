@@ -57,6 +57,9 @@
       <find>100000000</find>
     </findStrings>
   </component>
+  <component name="Git.Rebase.Settings">
+    <option name="PRESERVE_MERGES" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
@@ -478,10 +481,10 @@
     <list>
       <item itemvalue="Application.Mmain" />
       <item itemvalue="Application.CheckParamNotNullTest" />
+      <item itemvalue="Application.PidGen" />
       <item itemvalue="JUnit.CheckParamNotNullTest.check" />
       <item itemvalue="JUnit.BloomTest.guavaTest" />
       <item itemvalue="Maven.test" />
-      <item itemvalue="Application.PidGen" />
     </list>
     <recent_temporary>
       <list>
