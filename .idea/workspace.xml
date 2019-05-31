@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebadcd14-6bfe-44e6-ae94-98bea4061513" name="Default" comment="reduce">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ebadcd14-6bfe-44e6-ae94-98bea4061513" name="Default" comment="reduce" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../JCSprout/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,31 +40,22 @@
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/stream/ReferencePipeline.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="307">
-              <caret line="473" column="36" lean-forward="true" selection-start-line="473" selection-start-column="36" selection-end-line="473" selection-end-column="36" />
+              <caret line="473" column="40" selection-start-line="473" selection-start-column="40" selection-end-line="473" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/stream/ReduceOps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="79" column="33" lean-forward="true" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+            <state relative-caret-position="288">
+              <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
               <folding>
                 <element signature="e#2227#2228#0" expanded="true" />
                 <element signature="e#2301#2302#0" expanded="true" />
                 <element signature="e#22308#22309#0" expanded="true" />
                 <element signature="e#22350#22351#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/BiFunction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="48" selection-start-line="48" selection-end-line="52" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -484,7 +473,7 @@
       <workItem from="1557455776820" duration="998000" />
       <workItem from="1557458729865" duration="2399000" />
       <workItem from="1558687747549" duration="605000" />
-      <workItem from="1559267621608" duration="8995000" />
+      <workItem from="1559267621608" duration="9247000" />
     </task>
     <task id="LOCAL-00001" summary="添加不同类型的cglib copy">
       <created>1554196030665</created>
@@ -752,7 +741,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559283164211</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="reduce">
+      <created>1559290840077</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1559290840077</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -788,13 +784,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73810000" />
+    <option name="totallyTimeSpent" value="74062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09018143" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07363927" />
       <window_info id="Structure" order="1" weight="0.094983995" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -812,7 +807,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.489154" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.44468546" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.44444445" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3453159" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
@@ -1139,20 +1134,7 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/stream/ReferencePipeline.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
-          <caret line="473" column="36" lean-forward="true" selection-start-line="473" selection-start-column="36" selection-end-line="473" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/stream/ReduceOps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="79" column="33" lean-forward="true" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
-          <folding>
-            <element signature="e#2227#2228#0" expanded="true" />
-            <element signature="e#2301#2302#0" expanded="true" />
-            <element signature="e#22308#22309#0" expanded="true" />
-            <element signature="e#22350#22351#0" expanded="true" />
-          </folding>
+          <caret line="473" column="40" selection-start-line="473" selection-start-column="40" selection-end-line="473" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1160,6 +1142,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="48" selection-start-line="48" selection-end-line="52" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/stream/ReduceOps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+          <folding>
+            <element signature="e#2227#2228#0" expanded="true" />
+            <element signature="e#2301#2302#0" expanded="true" />
+            <element signature="e#22308#22309#0" expanded="true" />
+            <element signature="e#22350#22351#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
