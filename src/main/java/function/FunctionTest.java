@@ -3,7 +3,10 @@ package function;
 import javax.swing.*;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Comparator;
 import java.util.Date;
+import java.util.List;
+import java.util.Optional;
 import java.util.stream.Stream;
 
 public abstract class FunctionTest {
@@ -29,6 +32,19 @@ public abstract class FunctionTest {
         return numbers.reduce(0, (acc, x) -> acc + x);
 //        return numbers.reduce(0, Integer::sum);
 //        return numbers.mapToInt(Integer::intValue).sum();
+    }
+
+    // Question 6
+    public static int countLowercaseLetters(String string) {
+        return (int) string.chars()
+                .filter(Character::isLowerCase)
+                .count();
+    }
+
+    // Question 7
+    public static Optional<String> mostLowercaseString(List<String> strings) {
+        return strings.stream()
+                .max(Comparator.comparing(FunctionTest::countLowercaseLetters));
     }
 
 }
