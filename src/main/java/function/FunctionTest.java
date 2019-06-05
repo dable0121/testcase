@@ -25,6 +25,10 @@ public abstract class FunctionTest {
         button.addActionListener(event ->
                 System.out.println(event.getActionCommand()));
         System.out.println(addUp(Stream.of(1,3,5,-1)));
+
+
+        //filter test
+        filter(Stream.of("abc","bbb","ddddd"),x->x.contains("b")).forEach(System.out::println);
     }
 
     public static int addUp(Stream<Integer> numbers) {
