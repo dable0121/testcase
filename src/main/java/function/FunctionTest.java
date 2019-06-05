@@ -3,10 +3,9 @@ package function;
 import javax.swing.*;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.Comparator;
-import java.util.Date;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
+import java.util.function.Function;
+import java.util.function.Predicate;
 import java.util.stream.Stream;
 
 public abstract class FunctionTest {
@@ -45,6 +44,54 @@ public abstract class FunctionTest {
     public static Optional<String> mostLowercaseString(List<String> strings) {
         return strings.stream()
                 .max(Comparator.comparing(FunctionTest::countLowercaseLetters));
+    }
+
+    public static <I, O> List<O> map(Stream<I> stream, Function<I, O> mapper) {
+        return stream.reduce(
+                new ArrayList<>(),
+                (acc, x) -> {
+            // We are copying data from acc to new list instance. It is very inefficient,
+            // but contract of Stream.reduce method requires that accumulator function does
+            // not mutate its arguments.
+            // Stream.collect method could be used to implement more efficient mutable reduction,
+            // but this exercise asks to use reduce method.
+            List<O> newAcc = new ArrayList<>(acc);
+            newAcc.add(mapper.apply(x));
+            return newAcc;
+        },
+                (List<O> left, List<O> right) -> {
+            // We are copying left to new list to avoid mutating it.
+            List<O> newLeft = new ArrayList<>(left);
+            newLeft.addAll(right);
+            return newLeft;
+        });
+    }
+
+    public static <I> List<I> filter(Stream<I> stream, Predicate<I> predicate) {
+        List<I> initial = new ArrayList<>();
+        return stream.reduce(initial,
+                (List<I> acc, I x) -> {
+                    if (predicate.test(x)) {
+                        // We are copying data from acc to new list instance. It is very inefficient,
+                        // but contract of Stream.reduce method requires that accumulator function does
+                        // not mutate its arguments.
+                        // Stream.collect method could be used to implement more efficient mutable reduction,
+                        // but this exercise asks to use reduce method explicitly.
+                        List<I> newAcc = new ArrayList<>(acc);
+                        newAcc.add(x);
+                        return newAcc;
+                    } else {
+                        return acc;
+                    }
+                },
+                FunctionTest::combineLists);
+    }
+
+    private static <I> List<I> combineLists(List<I> left, List<I> right) {
+        // We are copying left to new list to avoid mutating it.
+        List<I> newLeft = new ArrayList<>(left);
+        newLeft.addAll(right);
+        return newLeft;
     }
 
 }
