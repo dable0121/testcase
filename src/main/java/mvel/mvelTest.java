@@ -1,5 +1,6 @@
 package mvel;
 
+import com.alibaba.fastjson.JSON;
 import com.google.common.collect.Maps;
 import org.mvel2.MVEL;
 

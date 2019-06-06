@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebadcd14-6bfe-44e6-ae94-98bea4061513" name="Default" comment="map and filter use reduce">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mvel_mvel2_2_4_4_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mvel/mvelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javatest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javatest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mvel/mvelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvel/mvelTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../JCSprout/target/" />
@@ -24,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/mvel/mvelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+            <state relative-caret-position="38">
+              <caret line="14" selection-start-line="14" selection-end-line="48" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,49 +31,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Date.java">
+        <entry file="jar://D:/repository/com/alibaba/fastjson/1.2.56/fastjson-1.2.56-sources.jar!/com/alibaba/fastjson/JSON.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
-              <folding>
-                <element signature="e#6390#6391#0" expanded="true" />
-                <element signature="e#6438#6439#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="173">
+              <caret line="225" column="24" lean-forward="true" selection-start-line="225" selection-start-column="24" selection-end-line="225" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/time/ZoneId.java">
+        <entry file="jar://D:/repository/com/alibaba/fastjson/1.2.56/fastjson-1.2.56-sources.jar!/com/alibaba/fastjson/JSONObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="401" column="18" selection-start-line="401" selection-start-column="18" selection-end-line="401" selection-end-column="18" />
-              <folding>
-                <element signature="e#15593#15594#0" expanded="true" />
-                <element signature="e#15632#15633#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Calendar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="312" column="24" lean-forward="true" selection-start-line="312" selection-start-column="22" selection-end-line="312" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/repository/com/google/guava/guava/27.1-jre/guava-27.1-jre-sources.jar!/com/google/common/collect/Maps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="283" column="37" selection-start-line="283" selection-start-column="37" selection-end-line="283" selection-end-column="37" />
-              <folding>
-                <element signature="e#10522#10523#0" expanded="true" />
-                <element signature="e#10554#10555#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -111,6 +78,7 @@
       <find>100000000</find>
       <find>ReduceTask</find>
       <find>guava</find>
+      <find>json</find>
     </findStrings>
   </component>
   <component name="Git.Rebase.Settings">
@@ -497,7 +465,7 @@
       <workItem from="1557455776820" duration="998000" />
       <workItem from="1557458729865" duration="2399000" />
       <workItem from="1558687747549" duration="605000" />
-      <workItem from="1559267621608" duration="28841000" />
+      <workItem from="1559267621608" duration="30826000" />
     </task>
     <task id="LOCAL-00001" summary="添加不同类型的cglib copy">
       <created>1554196030665</created>
@@ -800,7 +768,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559700678749</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="map and filter use reduce">
+      <created>1559800178541</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1559800178542</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -836,12 +811,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93656000" />
+    <option name="totallyTimeSpent" value="95641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1995731" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.05709712" />
       <window_info id="Structure" order="1" weight="0.15154749" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -851,7 +826,7 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.4814815" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.50980395" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.40522876" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39106753" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -877,7 +852,7 @@
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.076307364" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.05709712" />
       <window_info id="Structure" order="1" weight="0.15154749" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -887,7 +862,7 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.4814815" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.50980395" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.40522876" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39106753" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -962,11 +937,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javatest.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/MQMessageConsumer.class" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1199,13 +1169,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="78" column="60" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/repository/com/google/guava/guava/27.1-jre/guava-27.1-jre-sources.jar!/com/google/common/collect/Maps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1246,10 +1209,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="70" column="26" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/com/alibaba/fastjson/1.2.56/fastjson-1.2.56.jar!/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="168" column="29" selection-start-line="168" selection-start-column="29" selection-end-line="168" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/com/alibaba/fastjson/1.2.56/fastjson-1.2.56-sources.jar!/com/alibaba/fastjson/JSONObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/com/alibaba/fastjson/1.2.56/fastjson-1.2.56-sources.jar!/com/alibaba/fastjson/JSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="225" column="24" lean-forward="true" selection-start-line="225" selection-start-column="24" selection-end-line="225" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mvel/mvelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        <state relative-caret-position="38">
+          <caret line="14" selection-start-line="14" selection-end-line="48" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
