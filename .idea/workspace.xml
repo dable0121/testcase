@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebadcd14-6bfe-44e6-ae94-98bea4061513" name="Default" comment="map and filter use reduce">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mvel/mvelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvel/mvelTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ebadcd14-6bfe-44e6-ae94-98bea4061513" name="Default" comment="map and filter use reduce" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../JCSprout/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,29 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/mvel/mvelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="14" selection-start-line="14" selection-end-line="48" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/repository/com/alibaba/fastjson/1.2.56/fastjson-1.2.56-sources.jar!/com/alibaba/fastjson/JSON.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="225" column="24" lean-forward="true" selection-start-line="225" selection-start-column="24" selection-end-line="225" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/repository/com/alibaba/fastjson/1.2.56/fastjson-1.2.56-sources.jar!/com/alibaba/fastjson/JSONObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -199,14 +175,24 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatest" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/mvel" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -465,7 +451,7 @@
       <workItem from="1557455776820" duration="998000" />
       <workItem from="1557458729865" duration="2399000" />
       <workItem from="1558687747549" duration="605000" />
-      <workItem from="1559267621608" duration="30826000" />
+      <workItem from="1559267621608" duration="31598000" />
     </task>
     <task id="LOCAL-00001" summary="添加不同类型的cglib copy">
       <created>1554196030665</created>
@@ -775,7 +761,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559800178542</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="map and filter use reduce">
+      <created>1559809967999</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1559809967999</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -811,12 +804,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95641000" />
+    <option name="totallyTimeSpent" value="96413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.05709712" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07790822" />
       <window_info id="Structure" order="1" weight="0.15154749" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -1209,13 +1203,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="70" column="26" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/repository/com/alibaba/fastjson/1.2.56/fastjson-1.2.56.jar!/com/alibaba/fastjson/JSON.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -1237,13 +1224,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mvel/mvelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="14" selection-start-line="14" selection-end-line="48" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
