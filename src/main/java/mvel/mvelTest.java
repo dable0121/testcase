@@ -14,7 +14,7 @@ public class mvelTest {
 
     public static void main(String[] args) {
         //满减规则券
-        String exp = "a > b?a-c;";
+  /*      String exp = "a > b?a-c;";
         Map<String, Object> paramMap = Maps.newHashMap();
         paramMap.put("a", "10000");//订单金额
         paramMap.put("b", "1000");//优惠阈值
@@ -47,7 +47,7 @@ public class mvelTest {
                         + "时" +
                         (days.get(Calendar.AM_PM) == Calendar.AM ? "上午" :
                                 "下午") + days.get(Calendar.MINUTE) + "分" + days.get(Calendar.SECOND) +
-                        "秒" + days.get(Calendar.MILLISECOND) + "毫秒");
+                        "秒" + days.get(Calendar.MILLISECOND) + "毫秒");*/
 
                /* //满减规则券
         String exp = "curprice>thresholdAmount?curprice-reduceCash;";
@@ -84,7 +84,7 @@ public class mvelTest {
                         + "时" + days.get(Calendar.MINUTE) + "分" + days.get(Calendar.SECOND) +
                         "秒" + days.get(Calendar.MILLISECOND) + "毫秒");
 */
-        CouponOfferImpl impl = new CouponOfferImpl();
+ /*       CouponOfferImpl impl = new CouponOfferImpl();
         String exp2 = "curprice>thresholdAmount?curprice-reduceCash";
         JSONObject json = new JSONObject();
         json.put("curprice", "10000");//订单金额
@@ -118,7 +118,24 @@ public class mvelTest {
                         + d.get(Calendar.SECOND)
                         +"秒"
                         + d.get(Calendar.MILLISECOND)
-                        + "毫秒");
+                        + "毫秒");*/
+        String exp = "discount>=lowest";
+        JSONObject json = new JSONObject();
+        json.put("discount", "1");//订单金额
+        json.put("lowest", "0.9");//优惠阈值
+        Object object2 = MVEL.eval(exp, json);
+        System.out.println(object2);
+        exp = "thresholdAmount/reduceCash >= 0.8";
+        json = new JSONObject();
+        json.put("thresholdAmount",1000);
+        json.put("reduceCash",30);
+        object2 = MVEL.eval(exp,json);
+        System.out.println(object2);
+        exp = "days==30 || days == 60";
+        json = new JSONObject();
+        json.put("days",50);
+        object2 = MVEL.eval(exp, json);
+        System.out.println(object2);
     }
 
 }
