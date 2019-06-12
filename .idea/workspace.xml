@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebadcd14-6bfe-44e6-ae94-98bea4061513" name="Default" comment="map and filter use reduce">
-      <change afterPath="$PROJECT_DIR$/src/main/java/valuetransfer/ValueTransfer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,17 +16,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/valuetransfer/ValueTransfer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -122,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/main/java/function/FunctionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/mvel/mvelTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/valuetransfer/ValueTransfer.java" />
       </list>
     </option>
   </component>
@@ -178,43 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javatest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javatest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javatest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javatest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javatest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="valuetransfer" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -456,14 +410,7 @@
       <workItem from="1557458729865" duration="2399000" />
       <workItem from="1558687747549" duration="605000" />
       <workItem from="1559267621608" duration="34405000" />
-      <workItem from="1560232044150" duration="5757000" />
-    </task>
-    <task id="LOCAL-00001" summary="添加不同类型的cglib copy">
-      <created>1554196030665</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1554196030665</updated>
+      <workItem from="1560232044150" duration="6420000" />
     </task>
     <task id="LOCAL-00002" summary="添加不同类型的cglib copy">
       <created>1554196049519</created>
@@ -801,7 +748,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560247085174</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="map and filter use reduce">
+      <created>1560308413505</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1560308413507</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -837,13 +791,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104977000" />
+    <option name="totallyTimeSpent" value="105640000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19423692" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.081109926" />
       <window_info id="Structure" order="1" weight="0.15154749" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -1261,8 +1214,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/valuetransfer/ValueTransfer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="228">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
         </state>
       </provider>
     </entry>
