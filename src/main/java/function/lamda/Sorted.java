@@ -17,6 +17,8 @@ public class Sorted {
                 .collect(Collectors.toList());
 // 顺序得到了保留
         assertEquals(Arrays.asList(2, 3, 4, 5), stillOrdered);
+
+
         Set<Integer> unordered = new HashSet<>(numbers);
         List<Integer> stillUnordered = unordered.stream()
                 .map(x -> x + 1)
