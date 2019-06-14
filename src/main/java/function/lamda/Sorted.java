@@ -1,10 +1,8 @@
 package function.lamda;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -28,5 +26,8 @@ public class Sorted {
         assertTrue(stillUnordered.contains(3));
         assertTrue(stillUnordered.contains(4));
         assertTrue(stillUnordered.contains(5));
+        TreeSet<Integer> set = Stream.of(6, 1, 4, 9, 4, 7, 4).collect(Collectors.toCollection(TreeSet::new));
+        set.stream().forEachOrdered(System.out::println);
+        assertEquals(new TreeSet(Arrays.asList(6, 1, 4, 9, 4, 7, 4)),set);
     }
 }
