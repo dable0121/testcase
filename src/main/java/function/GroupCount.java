@@ -13,5 +13,6 @@ public class GroupCount {
 
     public static void main(String[] args) {
         count().forEach((k,v)->System.out.println(k+":"+v));
+        System.out.println(count());
     }
 }
