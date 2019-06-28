@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebadcd14-6bfe-44e6-ae94-98bea4061513" name="Default" comment="group">
-      <change afterPath="$PROJECT_DIR$/src/main/java/function/Fibonacci.java" afterDir="false" />
+    <list default="true" id="ebadcd14-6bfe-44e6-ae94-98bea4061513" name="Default" comment="groupby define">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,13 +41,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/function/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
               <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/function/ComputeIfAbsentGroupBy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#1575#1576#0" expanded="true" />
+                <element signature="e#1608#1609#0" expanded="true" />
+                <element signature="e#1675#1676#0" expanded="true" />
+                <element signature="e#1713#1714#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -218,6 +235,7 @@
         <option value="$PROJECT_DIR$/src/main/java/function/lamda/Sorted.java" />
         <option value="$PROJECT_DIR$/src/main/java/function/GroupCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/function/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/main/java/function/ComputeIfAbsentGroupBy.java" />
       </list>
     </option>
   </component>
@@ -566,21 +584,7 @@
       <workItem from="1559267621608" duration="34405000" />
       <workItem from="1560232044150" duration="6439000" />
       <workItem from="1560329757030" duration="6239000" />
-      <workItem from="1561365995813" duration="5814000" />
-    </task>
-    <task id="LOCAL-00008" summary="reflect">
-      <created>1554701849945</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1554701849945</updated>
-    </task>
-    <task id="LOCAL-00009" summary="reflect">
-      <created>1554703990778</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1554703990778</updated>
+      <workItem from="1561365995813" duration="6655000" />
     </task>
     <task id="LOCAL-00010" summary="reflect">
       <created>1554705479222</created>
@@ -911,7 +915,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561431727301</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="lamda fibonacci">
+      <created>1561628910406</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1561628910406</updated>
+    </task>
+    <task id="LOCAL-00058" summary="groupby define">
+      <created>1561629119939</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1561629119939</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -947,12 +965,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117712000" />
+    <option name="totallyTimeSpent" value="118553000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12059765" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08484525" />
       <window_info id="Structure" order="1" weight="0.122732125" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -1051,7 +1070,9 @@
     <MESSAGE value="map and filter use reduce" />
     <MESSAGE value="collectors" />
     <MESSAGE value="group" />
-    <option name="LAST_COMMIT_MESSAGE" value="group" />
+    <MESSAGE value="lamda fibonacci" />
+    <MESSAGE value="groupby define" />
+    <option name="LAST_COMMIT_MESSAGE" value="groupby define" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1075,15 +1096,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/java/util/stream/ReduceOps.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#18886#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/stream/ReferencePipeline.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -1465,6 +1477,22 @@
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/function/ComputeIfAbsentGroupBy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#1575#1576#0" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+            <element signature="e#1713#1714#0" expanded="true" />
           </folding>
         </state>
       </provider>
