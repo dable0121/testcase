@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ebadcd14-6bfe-44e6-ae94-98bea4061513" name="Default" comment="config xml">
       <change afterPath="$PROJECT_DIR$/../JCSprout/interview.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/function/ParallelDeal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/function/ParallelDealTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_0_RC1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javatest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javatest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../JCSprout/target/" />
@@ -59,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/function/ParallelDealTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            <state relative-caret-position="114">
+              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -347,89 +338,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javatest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javatest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javatest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javatest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javatest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javatest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
-              <item name="lamda" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javatest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javatest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javatest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cglib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javatest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javatest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -692,14 +601,7 @@
       <workItem from="1560232044150" duration="6439000" />
       <workItem from="1560329757030" duration="6239000" />
       <workItem from="1561365995813" duration="7307000" />
-      <workItem from="1561945958714" duration="7075000" />
-    </task>
-    <task id="LOCAL-00014" summary="maven rebuild">
-      <created>1554962854171</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1554962854171</updated>
+      <workItem from="1561945958714" duration="7328000" />
     </task>
     <task id="LOCAL-00015" summary="customize annotation!">
       <created>1554969660590</created>
@@ -1037,7 +939,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562121134578</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="快速计算平方和">
+      <created>1562311180121</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1562311180121</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1073,13 +982,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126280000" />
+    <option name="totallyTimeSpent" value="126533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17235859" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.098719314" />
       <window_info id="Structure" order="1" weight="0.122732125" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -1089,7 +997,7 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.15686275" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.627451" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.66993463" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39106753" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1097,7 +1005,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.489154" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.19389978" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.19389978" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3453159" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
@@ -1180,6 +1088,7 @@
     <MESSAGE value="group" />
     <MESSAGE value="lamda fibonacci" />
     <MESSAGE value="groupby define" />
+    <MESSAGE value="快速计算平方和" />
     <MESSAGE value="config xml" />
     <option name="LAST_COMMIT_MESSAGE" value="config xml" />
   </component>
@@ -1578,8 +1487,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/function/ParallelDealTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="114">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>
