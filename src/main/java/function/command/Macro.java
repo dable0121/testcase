@@ -18,12 +18,30 @@ public class Macro {
         actions.forEach(Action::perform);
     }
 
-    public void invokeDemo(Editor editor) {
+    public static void main(String[] args) {
+        Editor editor = new Editor() {
+            @Override
+            public void save() {
+                System.out.println("saved");
+            }
+
+            @Override
+            public void open() {
+                System.out.println("opened");
+            }
+
+            @Override
+            public void close() {
+                System.out.println("closed");
+            }
+        };
+
         Macro macro = new Macro();
-        macro.record(editor::open);
         macro.record(editor::save);
+        macro.record(editor::open);
         macro.record(editor::close);
         macro.run();
     }
+
 
 }
