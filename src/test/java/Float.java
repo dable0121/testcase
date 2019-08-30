@@ -18,9 +18,9 @@ public class Float {
         System.out.println(MessageFormat.format("i={0}j={1}k = {2}", i, j, k));
         String ii = "111";
         final String jj = ii;
-        String kk = ii;
-        ii = "222";
+        String kk;
         kk = ii;
+        ii = "222";
         System.out.println(MessageFormat.format("ii={0}jj={1}kk={2}", ii, jj, kk));
     }
 }
