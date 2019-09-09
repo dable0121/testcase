@@ -3,6 +3,7 @@ import lombok.extern.slf4j.Slf4j;
 import java.math.BigDecimal;
 import java.nio.charset.StandardCharsets;
 import java.text.MessageFormat;
+import java.util.Arrays;
 
 @Slf4j
 public class Float {
@@ -22,5 +23,6 @@ public class Float {
         kk = ii;
         ii = "222";
         System.out.println(MessageFormat.format("ii={0}jj={1}kk={2}", ii, jj, kk));
+        System.out.println(Arrays.asList(15,18,20).contains(15));
     }
 }
