@@ -4,6 +4,8 @@ import java.math.BigDecimal;
 import java.nio.charset.StandardCharsets;
 import java.text.MessageFormat;
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Optional;
 
 @Slf4j
@@ -27,5 +29,8 @@ public class Float {
         System.out.println(Arrays.asList(15,18,20).contains(15));
         System.out.println(Optional.ofNullable(null).orElse("123"));
         System.out.println(Optional.of("456").orElse("123"));
+
+        Map<String,String> m = new HashMap<String,String>(){{put("1234","23232");}};
+        System.out.println(m);
     }
 }
