@@ -9,6 +9,7 @@ public class BloomTest {
 
   @Test
   public void guavaTest() {
+    long star1 = System.currentTimeMillis();
     BloomFilter<Integer> filter = BloomFilter.create(
         Funnels.integerFunnel(),
         100000000,
@@ -18,7 +19,8 @@ public class BloomTest {
     for (int i = 0; i < 100000000; i++) {
       filter.put(i);
     }
-    System.out.println("我放完了数值，开始判断---");
+    long end1 = System.currentTimeMillis();
+    System.out.println("我放完了数值，开始判断---放入1亿个数字的执行时间：" + (end1 - star1) + "毫秒");
     long star = System.currentTimeMillis();
     Assert.assertTrue(filter.mightContain(1));
     Assert.assertTrue(filter.mightContain(2));
