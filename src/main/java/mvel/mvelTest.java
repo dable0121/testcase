@@ -1,12 +1,7 @@
 package mvel;
 
-import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.google.common.collect.Maps;
 import org.mvel2.MVEL;
-
-import java.util.Calendar;
-import java.util.Map;
 
 
 public class mvelTest {
@@ -121,20 +116,26 @@ public class mvelTest {
                         + "毫秒");*/
         String exp = "discount>=lowest";
         JSONObject json = new JSONObject();
-        json.put("discount", "1");//订单金额
-        json.put("lowest", "0.9");//优惠阈值
-        Object object2 = MVEL.eval(exp, json);
-        System.out.println(object2);
-        exp = "thresholdAmount/reduceCash >= 0.8";
+//        json.put("discount", "1");//订单金额
+//        json.put("lowest", "0.9");//优惠阈值
+//        Object object2 = MVEL.eval(exp, json);
+//        System.out.println(object2);
+//        exp = "thresholdAmount/reduceCash >= 0.8";
+//        json = new JSONObject();
+//        json.put("thresholdAmount",1000);
+//        json.put("reduceCash",30);
+//        object2 = MVEL.eval(exp,json);
+//        System.out.println(object2);
+//        exp = "days==30 || days == 60";
+//        json = new JSONObject();
+//        json.put("days",50);
+//        object2 = MVEL.eval(exp, json);
+//        System.out.println(object2);
+
+        exp = "days>0 && days <=100";
         json = new JSONObject();
-        json.put("thresholdAmount",1000);
-        json.put("reduceCash",30);
-        object2 = MVEL.eval(exp,json);
-        System.out.println(object2);
-        exp = "days==30 || days == 60";
-        json = new JSONObject();
-        json.put("days",50);
-        object2 = MVEL.eval(exp, json);
+        json.put("days",101);
+        Object  object2 = MVEL.eval(exp, json);
         System.out.println(object2);
     }
 
