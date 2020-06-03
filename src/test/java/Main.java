@@ -13,6 +13,7 @@ import org.junit.Test;
  */
 @Slf4j
 public class Main {
+  private boolean automaticRetriesDisabled;
 
   @Test
   public void test() {
@@ -23,11 +24,13 @@ public class Main {
         .toInstant()
         .atZone(ZoneId.systemDefault()).toLocalDateTime();
     log.info(invoiceBornTime.toString());
+    log.info("automaticRetriesDisabled======="+automaticRetriesDisabled);
   }
 
   public static void main(String[] args) {
     String[] s = new String[]{"33333", "444444"};
     log.info(JSON.toJSONString(s));
+
 
   }
 }
