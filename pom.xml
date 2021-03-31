@@ -26,7 +26,7 @@
         <lombok.version>1.18.6</lombok.version>
         <fastjson.version>1.2.56</fastjson.version>
         <commons.lang3.version>3.8.1</commons.lang3.version>
-        <guava.version>27.1-jre</guava.version>
+        <guava.version>29.0-jre</guava.version>
         <mvel2.version>2.4.4.Final</mvel2.version>
     </properties>
 
