@@ -22,7 +22,7 @@
         <!-- dependency version -> latest on 2019-4-11 -->
         <commons-pool2.version>2.6.1</commons-pool2.version>
         <amqp-client.version>5.7.0</amqp-client.version>
-        <mysql-connector-java.version>8.0.15</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.28</mysql-connector-java.version>
         <lombok.version>1.18.6</lombok.version>
         <fastjson.version>1.2.56</fastjson.version>
         <commons.lang3.version>3.8.1</commons.lang3.version>
