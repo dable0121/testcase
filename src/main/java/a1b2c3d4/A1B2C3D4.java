@@ -108,21 +108,21 @@ public class A1B2C3D4 {
         try {
             t1 = new Thread(() -> {
                 for (char c : c1) {
-                    LockSupport.unpark(t2);
                     System.out.print(c);
-                    LockSupport.park();
+                    LockSupport.unpark(t2);
+                    LockSupport.park(t1);
                 }
             }, "t1");
 
             t2 = new Thread(() -> {
                 for (char c : c2) {
-                    LockSupport.park();
+                    LockSupport.park(t2);
                     System.out.print(c);
                     LockSupport.unpark(t1);
                 }
             }, "t2");
-            t1.start();
             t2.start();
+            t1.start();
             t1.join();
             t2.join();
             System.out.println("");
